@@ -23,14 +23,17 @@ those with a Bus Pirate and an I2C device that they need to probe.
 
 Debian Install:
 
-sudo apt-get install python3-pip
-sudo pip3 install urwid
-sudo pip3 install pyserial
+$ sudo apt-get install python3-pip
+
+$ sudo pip3 install urwid
+
+$ sudo pip3 install pyserial
 
 
 Run:
 
 $ cd <DIRECTORY_WITH_MAIN_PY>
+
 $ python3 main.py
 
 
@@ -48,7 +51,7 @@ read/write operations, which will do bulk read/write for all the registers with
 their checkboxes enabled.
 
 
-Contributing:
+Contribute:
 
 Please do so. Pull request are encouraged. Let's make a great tool.
 
