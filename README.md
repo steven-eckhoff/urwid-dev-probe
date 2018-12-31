@@ -1,6 +1,6 @@
+# Urwid Dev Probe
 
-
-History:
+## History
 
 This is a project I started because I needed a simple tool that would allow me
 to peek and poke I2C devices. I also wanted to make a tool that was very
@@ -15,29 +15,26 @@ and some simple middleware. I chose Urwid because it is lightweight and simple
 to use.
 
 
-Status:
+## Status
 
-This project is currently in the hacky phase. Despite this, it is useful to
+**This project is currently in the *hacky* phase.** Despite this, it is useful to
 those with a Bus Pirate and an I2C device that they need to probe.
 
 
-Debian Install:
+## Install
 
-$ sudo apt-get install python3-pip
-
-$ sudo pip3 install urwid
-
-$ sudo pip3 install pyserial
+    $ sudo apt-get install python3-pip
+    $ sudo pip3 install urwid
+    $ sudo pip3 install pyserial
 
 
-Run:
+## Run
 
-$ cd <DIRECTORY_WITH_MAIN_PY>
+    $ cd <DIRECTORY_WITH_MAIN_PY>
+    $ python3 main.py
 
-$ python3 main.py
 
-
-Use:
+## Use
 
 1. Once you are in the GUI select a device that you want to probe
 
@@ -50,13 +47,7 @@ pressing the corresponding buttons for the register. You can also use the global
 read/write operations, which will do bulk read/write for all the registers with
 their checkboxes enabled.
 
-
-Contribute:
-
-Please do so. Pull request are encouraged. Let's make a great tool.
-
-
-TODO:
+## TODO
 
 1. Decouple GUI from read/write operations with threads
 
