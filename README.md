@@ -1,5 +1,7 @@
 # Urwid Dev Probe
 
+![Logo](https://github.com/steven-eckhoff/urwid-dev-probe/blob/master/logo.jpg)
+
 ## History
 
 This is a project I started because I needed a simple tool that would allow me
